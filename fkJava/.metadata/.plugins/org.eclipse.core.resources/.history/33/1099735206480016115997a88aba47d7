@@ -1,0 +1,10 @@
+package java03;
+
+public class LogicOperatorTest {
+	public static void main(String[] args){
+		//直接对false求非运算
+		System.out.println(!false);
+		System.out.println(5>3&&'6'>10);
+		System.out.println(4>=5||'c'>'a');
+	}
+}

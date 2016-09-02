@@ -1,0 +1,39 @@
+package java05;
+
+class BaseClass2{
+	public int book=6;
+	public void base(){
+		System.out.println("父类的普通方法");
+	}
+	
+	public void test(){
+		System.out.println("父类的被覆盖的方法");
+	}
+}	
+public class SubClass2 {
+	//重新定义一个book实例变量隐藏父类的book实例变量
+	public String book="轻量级Java EE企业应用实战";
+	
+	public void test(){
+		System.out.println("子类覆盖父类的方法");
+	}
+	
+	public void sub(){
+		System.out.println("子类的普通方法");
+	}
+	
+	public static void main(String[] args){
+		//下面编译时类型和运行时类型完全一样，因此不存在多态
+		BaseClass2 bc=new BaseClass2();
+		System.out.println(bc.book);
+		
+		//下面两次调用将执行BaseClass的方法
+		bc.base();
+		bc.test();
+		//下面编译时类型和运行时类型完全一样，所以不存在多套
+		SubClass2 sc=new SubClass2();
+		System.out.println(sc.book);
+		
+		
+	}
+}

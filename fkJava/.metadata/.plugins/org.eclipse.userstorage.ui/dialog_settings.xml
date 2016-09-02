@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="CredentialsDialog">
+		<item value="Enter the login information for your Eclipse.org account." key="DIALOG_MESSAGE"/>
+		<item value="416" key="DIALOG_WIDTH"/>
+		<item value="1|Microsoft YaHei UI|10.5|0|WINDOWS|1|-14|0|0|0|400|0|0|0|-122|3|2|1|34|Microsoft YaHei UI" key="DIALOG_FONT_NAME"/>
+		<item value="433" key="DIALOG_HEIGHT"/>
+	</section>
+</section>

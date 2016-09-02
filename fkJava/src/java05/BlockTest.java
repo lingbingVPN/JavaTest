@@ -1,0 +1,18 @@
+package java05;
+
+public class BlockTest {
+	public static void main(String[] args){
+	{
+		//定义一个代码块局部变量a
+		int a;
+		//下面代码将出现错误，因为a变量还没有初始化
+		//成员变量有系统负责初始化，局部变量由开发者进行初始化，不然不能使用
+//		System.out.println(a);
+		//为局部变量进行初始化
+		a=5;
+		System.out.println("局部变量a的值是:"+a);
+	}
+	//在代码块之外试图访问代码块局部变量a,访问不了
+//	System.out.println(a);
+	}
+}

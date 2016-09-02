@@ -1,0 +1,11 @@
+package java05;
+
+public class personTest3 {
+	public static void main(String[] args){
+		Person3 p=new Person3();
+		//因为age成员变量已被隐藏，不能直接访问
+		//所有下面代码将出现编译错误
+		p.age=10;
+		
+	}
+}

@@ -1,0 +1,8 @@
+package java06;
+
+public class WrapperClassCompare {
+	public static void main(String[] args){
+		Integer a=new Integer(6);
+		System.out.println("6的包装类实例是否大于5.0?"+(a>5.0));
+	}
+}

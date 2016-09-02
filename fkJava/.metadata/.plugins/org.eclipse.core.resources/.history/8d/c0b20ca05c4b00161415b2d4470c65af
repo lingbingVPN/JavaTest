@@ -1,0 +1,14 @@
+package java06;
+
+class Name{
+	private String firstName;
+	private String lastName;
+	public Name(){}
+	public Name(String firstName,String lastName){
+		this
+		this
+	}
+}
+public class Perosn {
+	
+}

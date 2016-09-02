@@ -1,0 +1,10 @@
+package java06;
+
+public class BetterPrinter implements Output {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

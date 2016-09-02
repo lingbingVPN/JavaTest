@@ -1,0 +1,10 @@
+package java03;
+
+public class MathTest {
+	public static void main(String[] args){
+		double a=3.2;
+		//调用Math类的静态方法求a的5次方
+		double b=Math.pow(a, 5);
+		
+	}
+}

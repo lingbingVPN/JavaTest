@@ -1,0 +1,28 @@
+package java06;
+
+interface Product{
+	int getProduceTime();
+}
+
+//让Pronter类实现Output和Produce接口
+public class Printer implements Output, Product{
+	private String[] printData=
+			new String[MAX_CACHE_LINE];
+	
+	//用以记录当前需要打印的作业数
+	private int dataNum=0;
+	public void out(){
+		//只要还有作业，继续打印
+		while(dataNum>0){
+			System.out.println("打印机打印："
+								+printData[0]);
+			//把作业队列整体前移一位，并将剩下的作业数减1
+			System.arraycopy(printData, 1,
+					printData, 0, --dataNum);
+		} 
+	}
+	
+	public void getData(String msg){
+		if()
+	}
+}

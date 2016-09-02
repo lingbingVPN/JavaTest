@@ -1,0 +1,10 @@
+package java06;
+
+public class FinalMethodTest {
+	public final void test(){}
+}
+
+class Sub extends FinalErrorTest{
+	//对于final修饰的方法来说，是不允许子类重写的
+	public void test(){}
+}

@@ -1,0 +1,10 @@
+package java06;
+
+public class FinalVariableTest {
+	//定义成员变量时指定默认值吗，合法
+	final int a=6;
+	//下面变量将在构造器或初始化块中分配初始值
+	final String str;
+	
+	
+}

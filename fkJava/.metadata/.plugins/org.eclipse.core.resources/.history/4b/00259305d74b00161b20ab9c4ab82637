@@ -1,0 +1,7 @@
+package java06;
+
+public class ProcessArray {
+	public static void main(String[] args){
+		cmd.process(target);
+	}
+}

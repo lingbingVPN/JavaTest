@@ -1,0 +1,16 @@
+package java07;
+
+public class IdentityHashCodeTest {
+	public static void main(String args){
+		//下面程序中，s1和s2是两个不同的对象
+		String s1=new String("Hello");
+		String s2=new String("Hello");
+		
+		//String重写了hashCode方法，改为根据字符序列计算hashCode值
+		//因为s1和s2的字符序列相同，所以它们的hashCode值相等
+		//下面判断s1和s2是否指向同一个地址，输出false
+		System.out.println(s1==s2);
+		//下面判断s1和s2的字符序列是否相同
+		System.out.println(s1.equals(s2));
+	}
+}

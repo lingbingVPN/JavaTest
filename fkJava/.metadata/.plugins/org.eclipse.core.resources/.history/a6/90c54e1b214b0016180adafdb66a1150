@@ -1,0 +1,52 @@
+package java06;
+
+import java.util.Arrays;
+
+class Person4{
+	private int age;
+	public Person(int age){
+		this.age=age;
+	}
+	
+	//age的setter和getter方法
+	public void setAge(int age){
+		this.age=age;
+	}
+	
+	public int getAge(){
+		return this.age;
+	}
+}
+
+public class FinalReferenceTest {
+	public static void mian(String[] args){
+		//final修饰的数组变量，iArr是一个引用变量
+		final int[] iArr={5,6,12,9};
+		System.out.println(Arrays.toString(iArr));
+		//对数组元素进行排序，合法行为
+		Arrays.sort(iArr);
+		System.out.println(Arrays.toString(iArr));
+		//对数组元素赋值，合法行为
+		iArr[2]=-8;
+		System.out.println(Arrays.toString(iArr));
+		//对iArr重新赋值，非法行为
+//		iArr=null;
+		
+		
+		//final修饰Person变量，p是一个引用变量
+		final Person p=new Person(45);
+		//改变Person对象的age实例变量，合法
+		p.setAge(23);
+		System.out.println(p.getAge());
+		//下面对p重新赋值，非法
+//		p=null;
+		
+		/*
+		 * 如果是final修饰的基本数值型变量，那么数值第一次赋值后
+		 * 不能再次被改变。
+		 * 如果fianl修饰的是String类型的变量，那么保存的字符串不能改变
+		 * 如果final修饰的是引用类型的变量，那么，变量的指针地址不能被改变。
+		 */
+		
+	}
+}

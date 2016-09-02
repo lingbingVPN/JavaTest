@@ -1,0 +1,18 @@
+package java05;
+
+class Person2{
+	//定义一个实例变量
+	public String name;
+	//定义一个类变量
+	public static int eyeNum;
+}
+public class PersonTest2 {
+	public static void mian(String[] args){
+		/*
+		 * 第一次主动使用Person2类，该类自动初始化
+		 * 则eyeNum变量开始起作用，输出0
+		 */
+		System.out.println("Person的eyeNum类变量值："+Person2.eyeNum);
+		
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;safia.java&apos; to &apos;Javahexinjishujuan/src/GUI&apos;&#x0D;&#x0A;- Original project: &apos;shapes&apos;&#x0D;&#x0A;- Destination element: &apos;Javahexinjishujuan/src/GUI&apos;&#x0D;&#x0A;- Original element: &apos;shapes.safia.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="=Javahexinjishujuan/src&lt;GUI" element1="/src&lt;shapes{safia.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1452942541435" units="1" version="1.0"/>
+</session>

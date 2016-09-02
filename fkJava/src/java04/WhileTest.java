@@ -1,0 +1,33 @@
+package java04;
+
+
+public class WhileTest {
+	public static void main(String[] args){
+		//循环的初始化条件
+//		int count=0;
+//		//设置循环条件
+//		while (count<10) {
+//			//循环体
+//			System.out.println(count);
+//			//迭代语句
+//			count++;	
+//		}
+//		System.out.println("循环结束了");
+		
+		//下面是一个死循环
+//		int count=0;
+//		while(count<10){
+//			System.out.println("这是一个死循环"+count);
+//			count--;
+//		}
+//		System.out.println("永远无法跳出的循环体");
+		
+		
+		int count=0;
+		//while后紧跟一个分号，表明循环体是一个分好
+		while(count<10){
+			System.out.println("---------"+count);
+			count++;
+		}
+	}
+}

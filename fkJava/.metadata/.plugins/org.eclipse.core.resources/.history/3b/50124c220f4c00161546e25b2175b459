@@ -1,0 +1,8 @@
+package java06;
+
+class StaticOut{
+	
+}
+public class CreateStaticInnerInstance {
+	
+}

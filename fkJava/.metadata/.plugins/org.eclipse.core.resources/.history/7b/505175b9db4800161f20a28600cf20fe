@@ -1,0 +1,17 @@
+package java05;
+
+import javax.xml.crypto.Data;
+
+class DataWrap{
+	int a;
+	int b;
+}
+
+public class ReferrenceTransferTest {
+	public static void swap(DataWrap dw){
+		//下面三行代码实现dw的a、b两个成员变量的值交换
+		//定义一个临时变量来保存dw对象的a成员变量的值
+		int tmp=dw.a;
+		
+	}
+}

@@ -1,0 +1,11 @@
+AbstractTextEditor.Color.SelectionBackground=7,54,66
+PHPReadOccurrenceIndicationColor=0,0,0
+PHPWriteOccurrenceIndicationColor=0,0,0
+currentLineColor=0,43,54
+eclipse.preferences.version=1
+filteredSearchResultIndicationColor=7,54,66
+javaScriptOccurrenceIndicationColor=0,0,0
+lineNumberRuler=true
+occurrenceIndicationColor=7,54,66
+overviewRuler_migration=migrated_3.1
+writeOccurrenceIndicationColor=7,54,66

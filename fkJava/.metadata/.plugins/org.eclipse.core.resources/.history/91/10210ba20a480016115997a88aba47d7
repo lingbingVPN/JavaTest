@@ -1,0 +1,15 @@
+package java03;
+
+public class ThreeTest {
+	public static void main(String[] args){
+		String str=5>3?"5大于3":"5小于3";
+		System.out.println(str);
+		String str2=null;
+		if(5>3){
+			str2="5大于3";
+		}else {
+			str2="5小于3";
+		}
+		System.out.println(str2);
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 20 resources" deleteContents="false" description="Delete 20 resources" element1="/讯友桌面通讯录" element10="/Javahexinjishujuan" element11="/lianxi" element12="/libraryManager" element13="/NotePad" element14="/PicSys" element15="/shapes" element16="/Shoot" element17="/SubmarineWar" element18="/TanKeWar" element19="/TIJ" element2="/BaiTing" element20="/TuiXiangZi" element3="/Batt" element4="/Chess" element5="/corejava8" element6="/Exercise" element7="/FishGame" element8="/Five" element9="/fkjava" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="20" stamp="1467120389304"/>
+</session>

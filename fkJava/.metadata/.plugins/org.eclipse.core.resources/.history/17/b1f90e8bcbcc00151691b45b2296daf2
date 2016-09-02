@@ -1,0 +1,49 @@
+package fkjava;
+class BaseClass 
+{
+	public int book=6;
+	public void base()
+	{
+		System.out.println("父类的普通方法");
+	}
+	public void test()
+	{
+		System.out.println("父类被覆盖的方法");
+	}
+	
+}
+
+public class SubClass extends BaseClass{
+	public String book="轻量级javaEE企业应用实战";
+	public void test()
+	{
+		System.out.println("子类覆盖父类的方法");
+	}
+	public void Sub()
+	{
+		System.out.println("子类的普通方法");
+		
+	}
+	
+	public static void main(String[] args)
+	{
+		BaseClass bc=new BaseClass();	//创建BaseClass实例bc
+		System.out.println(bc.book);	//输出BaseClass的实例变量book的值：6
+		bc.base();						//bc访问BaseClass的base方法，输出“父类的普通方法”
+		bc.test();						//bc访问BaseClass的test方法，输出“父类被覆盖的方法”
+		SubClass sc=new SubClass();		//创建SubClass实例
+		System.out.println(sc.book);	//sc访问SubClass的实例变量book，输出”轻量级javaEE企业应用实战“
+		sc.base();						//sc访问父类BaseClass的base方法，输出“父类的普通方法”
+		sc.test();						//sc访问自己的test方法，输出“子类覆盖父类的方法”
+		sc.Sub();
+		BaseClass ploymophicBc=new SubClass();	//调用SubClass构造器构造一个对象并赋予Baseclass类型的变量
+		System.out.println(ploymophicBc.book);	//访问book实例变量时，输出6，是因为对象变量的类型为BaseClass，所以访问的是BaseClaa的实例变量
+		ploymophicBc.base();					//访问base,输出了“父类的普通方法”，因为base方法并没有被子类改写，所以访问的是父类的base方法，也是全代码唯一的base方法
+		ploymophicBc.test();					//访问test，输出“子类覆盖父类的方法”	说明访问的是SubClass中的test方法。
+//		ploymophicBc.sub();
+		
+		
+	}
+	
+
+}

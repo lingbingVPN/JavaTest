@@ -1,0 +1,9 @@
+package java06;
+
+public class UnsignedTest {
+	public static void main(String[] args){
+		byte b=-3;
+		//将byte类型的-3转换为无符号征税
+		System.out.println(Byte.toUnsignedInt(b));
+	}
+}

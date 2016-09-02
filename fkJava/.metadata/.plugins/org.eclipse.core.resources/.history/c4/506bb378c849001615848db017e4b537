@@ -1,0 +1,41 @@
+package java05;
+
+class Animal2{
+	private void beat(){
+		System.out.println("心脏跳动...");
+	}
+	
+	public void breath(){
+		beat();
+		System.out.println("吸一口气，吐一口气，呼吸中...");
+	}
+}
+
+class Bird{
+	//将原来的父类组合到原来的子类
+	//作为子类的一个组合部分
+	private Animal2 a;
+	
+	public Bird(Animal2 a){
+		this.a=a;
+	}
+	
+	//重新定义一个自己的Breath()方法
+	public void breath(){
+		//直接复用Animal提供的breath方法来实现Bird的breath方法
+		a.breath();
+	}
+	
+	public void fly(){
+		System.out.println("我在天空自在的飞翔...");
+		}
+	
+}
+
+class Wolf2{
+	
+}
+
+public class CompositeTest {
+	
+}

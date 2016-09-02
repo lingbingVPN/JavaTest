@@ -1,0 +1,13 @@
+package fkjava;
+
+class InstanceofTest {
+
+	public static void main(String[] args) {
+		//声明hello时使用object类，则hello的编译类型是object
+		//object是所有类的父类，但hello变量的实际类型是String
+		Object hello="Hello";
+		//String与object类存在继承关系，可以进行instanceof运算
+		System.out.println("字符串是否是object类的实例："+(hello instanceof Object));
+	}
+
+}

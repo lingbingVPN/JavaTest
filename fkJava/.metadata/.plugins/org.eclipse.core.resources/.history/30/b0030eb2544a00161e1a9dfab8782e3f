@@ -1,0 +1,15 @@
+package java06;
+
+class Person2{
+	private String name;
+	private String idStr;
+	public Person2(){}
+	public Perosn2(String name, String idStr){
+		this.name=name;
+		this.idStr=idStr;
+		
+	}
+}
+public class OverrideEqualsRight {	
+	
+}
